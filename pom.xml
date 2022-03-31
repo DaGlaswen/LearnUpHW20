@@ -9,10 +9,10 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>ru.learnup</groupId>
-	<artifactId>homework20</artifactId>
+	<artifactId>homework21</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>homework20</name>
-	<description>homework 20 learnup</description>
+	<description>homework 21 learnup</description>
 	<properties>
 		<java.version>11</java.version>
 	</properties>
@@ -41,6 +41,15 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-aop</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>com.google.guava</groupId>
+			<artifactId>guava</artifactId>
+			<version>31.0-jre</version>
 		</dependency>
 	</dependencies>
 

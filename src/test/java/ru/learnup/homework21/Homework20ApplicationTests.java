@@ -1,4 +1,4 @@
-package ru.learnup.homework20;
+package ru.learnup.homework21;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

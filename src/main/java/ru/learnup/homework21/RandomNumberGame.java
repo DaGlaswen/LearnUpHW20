@@ -1,11 +1,11 @@
-package ru.learnup.homework20;
+package ru.learnup.homework21;
 
 import org.springframework.beans.BeansException;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.ApplicationContextAware;
-import org.springframework.context.support.ReloadableResourceBundleMessageSource;
 import org.springframework.stereotype.Component;
+import ru.learnup.homework21.aspects.annotations.LogMethod;
+import ru.learnup.homework21.aspects.annotations.WorkTime;
 
 import java.util.Locale;
 import java.util.Scanner;
@@ -28,6 +28,8 @@ public class RandomNumberGame implements ApplicationContextAware {
         this.publisher = publisher;
     }
 
+    @WorkTime
+    @LogMethod
     public void startTheGame() {
         System.out.println(context.getMessage("greeting", null, locale));
         System.out.println(context.getMessage("initialInstructions", null, locale));

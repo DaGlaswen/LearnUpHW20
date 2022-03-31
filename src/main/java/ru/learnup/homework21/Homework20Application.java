@@ -1,4 +1,4 @@
-package ru.learnup.homework20;
+package ru.learnup.homework21;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
